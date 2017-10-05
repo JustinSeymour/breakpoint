@@ -11,6 +11,7 @@
 		740B84E41F861621000A71BE /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740B84E31F861621000A71BE /* AuthService.swift */; };
 		740B84E61F862635000A71BE /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740B84E51F862635000A71BE /* MeVC.swift */; };
 		740B84E81F863632000A71BE /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740B84E71F863632000A71BE /* CreatePostVC.swift */; };
+		740B84EA1F863B5C000A71BE /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740B84E91F863B5C000A71BE /* UIViewExt.swift */; };
 		74860A8A1F84D05E005DE3DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74860A891F84D05E005DE3DD /* AppDelegate.swift */; };
 		74860A8C1F84D05E005DE3DD /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74860A8B1F84D05E005DE3DD /* FeedVC.swift */; };
 		74860A8E1F84D05E005DE3DD /* GroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74860A8D1F84D05E005DE3DD /* GroupsVC.swift */; };
@@ -29,6 +30,7 @@
 		740B84E31F861621000A71BE /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		740B84E51F862635000A71BE /* MeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
 		740B84E71F863632000A71BE /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
+		740B84E91F863B5C000A71BE /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		74860A861F84D05E005DE3DD /* breakpoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = breakpoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74860A891F84D05E005DE3DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74860A8B1F84D05E005DE3DD /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 		74860AA01F84D0ED005DE3DD /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				740B84E91F863B5C000A71BE /* UIViewExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -281,6 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				740B84EA1F863B5C000A71BE /* UIViewExt.swift in Sources */,
 				740B84E61F862635000A71BE /* MeVC.swift in Sources */,
 				74CEA2A31F84E1CA00C1C159 /* AuthVC.swift in Sources */,
 				74860A8E1F84D05E005DE3DD /* GroupsVC.swift in Sources */,
