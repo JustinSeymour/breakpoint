@@ -10,6 +10,7 @@
 		0DE1186561D31BC3ED512D9C /* Pods_breakpoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBB785A2CB4F4598E62D42FF /* Pods_breakpoint.framework */; };
 		740B84E41F861621000A71BE /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740B84E31F861621000A71BE /* AuthService.swift */; };
 		740B84E61F862635000A71BE /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740B84E51F862635000A71BE /* MeVC.swift */; };
+		740B84E81F863632000A71BE /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740B84E71F863632000A71BE /* CreatePostVC.swift */; };
 		74860A8A1F84D05E005DE3DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74860A891F84D05E005DE3DD /* AppDelegate.swift */; };
 		74860A8C1F84D05E005DE3DD /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74860A8B1F84D05E005DE3DD /* FeedVC.swift */; };
 		74860A8E1F84D05E005DE3DD /* GroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74860A8D1F84D05E005DE3DD /* GroupsVC.swift */; };
@@ -27,6 +28,7 @@
 /* Begin PBXFileReference section */
 		740B84E31F861621000A71BE /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		740B84E51F862635000A71BE /* MeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
+		740B84E71F863632000A71BE /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
 		74860A861F84D05E005DE3DD /* breakpoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = breakpoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74860A891F84D05E005DE3DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74860A8B1F84D05E005DE3DD /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 				74CEA2A21F84E1CA00C1C159 /* AuthVC.swift */,
 				74CEA2A41F84E1FF00C1C159 /* LoginVC.swift */,
 				740B84E51F862635000A71BE /* MeVC.swift */,
+				740B84E71F863632000A71BE /* CreatePostVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 				740B84E41F861621000A71BE /* AuthService.swift in Sources */,
 				74860A8A1F84D05E005DE3DD /* AppDelegate.swift in Sources */,
 				74CEA2AA1F84E5A100C1C159 /* ShadowView.swift in Sources */,
+				740B84E81F863632000A71BE /* CreatePostVC.swift in Sources */,
 				74860A8C1F84D05E005DE3DD /* FeedVC.swift in Sources */,
 				74CEA2A71F84E25000C1C159 /* InsetTextField.swift in Sources */,
 				74CEA2A11F84D55F00C1C159 /* DataService.swift in Sources */,
