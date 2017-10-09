@@ -33,9 +33,9 @@ class AuthService {
             if error != nil {
                 loginComplete(false, error)
                 return
+            } else {
+                loginComplete(true, nil)
             }
-            
-            loginComplete(true, nil)
         }
     }
     
